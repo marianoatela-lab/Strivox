@@ -1,0 +1,138 @@
+.cont-title{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.cards-grid{
+    display: flex;
+    padding: 10px;
+    gap: 2rem;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.cards{
+    background-color: var(--cards);
+    border-radius: 10px;
+    width: 350px;
+    flex-direction: column;
+    display: flex;
+    overflow: hidden;
+    flex: 1 1 280px;
+}
+
+.cards img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.cards-body{
+    padding: 10px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.cards-body h3{
+    font-family: var(--font-heading);
+    color: var(--color-primary) ;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.plan-description {
+    font-family: var(--font-body);
+    font-size: 1rem;
+    font-weight: 400;      
+    margin: 0.5rem 0;      
+    line-height: 1.4;
+    min-height: 2.8rem;
+    margin-bottom: 0.5rem;   
+}
+
+.precio-sin-descuento{
+    padding: 5px ;
+    font-size: 1.5rem;
+    font-family: var(--font-body);
+    color: var(--color-secondary);
+    font-weight: 500;
+    text-decoration: line-through var(--text-white);
+}
+
+.precio-container {
+    display: flex;
+    align-items: flex-end; 
+    gap: 0.75rem;   
+    margin: 0.5rem 0;
+}
+
+.precio-final{
+    font-family: var(--font-body);
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 1;
+}
+
+.descuento{
+    font-family: var(--font-body);
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.cards-body a{
+    margin: 10px;
+    color: var(--text-black);
+    background-color: var(--color-primary);
+    transition: transform 0.2s, background-color 0.3;
+}
+
+.cards-body a:hover{
+    transform: scale(1.05);
+}
+
+.lista-beneficios{
+    font-family: var(--font-body);
+    margin-top: auto;
+    padding: 1rem;
+}
+
+.lista-beneficios ul {
+  list-style: none;   
+  padding: 0;
+  margin: 0;
+}
+
+.lista-beneficios li {
+    display: flex;
+    margin-bottom: .8rem;
+    align-items: center;
+    gap: .6rem;
+}
+
+.lista-beneficios .fa-check {
+  color: var(--color-primary);
+}
+
+@media (max-width: 768px) {
+    .cont-title {
+    padding: 0 20px;
+    text-align: center;
+    }
+
+    .cards-grid{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cards{
+        width: 100%;
+        max-width: 345px;
+        flex: none;
+        height: auto;
+    }
+}

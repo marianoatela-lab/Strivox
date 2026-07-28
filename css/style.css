@@ -1,0 +1,8 @@
+/* Punto de entrada unico 
+Vamos a tener todos los CSS linkeados a este archivo*/
+
+@import url(/css/general.css);
+@import url(/css/pages/hero.css);
+@import url(/css/pages/cards.css);
+@import url(/css/pages/galeria.css);
+@import url(/css/pages/contacto.css);

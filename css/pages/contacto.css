@@ -1,0 +1,43 @@
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+    background-color: var(--color-secondary);
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 8);
+    max-width: 83vh;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+label{
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+input, select, textarea{
+    font-family: var(--body);
+    font-size: 1rem;
+    padding: 0.7rem;
+    border: 1 solid #ddd;
+    border-radius: 8px;
+    background-color: var(--cards);
+}
+
+input:focus, select:focus, textarea:focus{
+    outline: 2px solid var(--text-white);
+}
+
+.form-buttons{
+    display: flex;
+    gap: 1rem;
+}
+
+.form-buttons button{
+    padding: 10px;
+}
