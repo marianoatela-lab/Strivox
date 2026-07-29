@@ -34,6 +34,11 @@ input, select, textarea{
     color: var(--text-white);
 }
 
+legend{
+    color: var(--color-primary);
+    font-family: var(--font-body);
+}
+
 select option{
     background-color: #2a2a2a;
     color: var(--text-white);
