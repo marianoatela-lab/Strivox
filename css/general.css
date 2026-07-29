@@ -38,6 +38,7 @@ h1{
     font-family: var(--font-heading);
     color: var(--color-primary);
     font-size: 3.5rem;
+    text-align: center;
 }
 
 h2{
