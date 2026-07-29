@@ -35,8 +35,10 @@ input, select, textarea{
 }
 
 legend{
+font-family: var(--font-body);
+    font-weight: 600;
+    font-size: 0.9rem;
     color: var(--color-primary);
-    font-family: var(--font-body);
 }
 
 select option{
