@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="css/style.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -36,69 +36,71 @@
       </nav>
     </header>
 
-      <div class="cont-title">
-        <h1>Contacto</h1>
-      </div>
-      <section class="main-section">
-      <form>
-        <div class="form-group">
-          <label for="name">Nombre</label>
-          <input type="text" name="name" id="name" placeholder="Tu nombre" required>
+    <main>
+        <div class="cont-title">
+          <h1>Contacto</h1>
         </div>
-
-        <div class="form-group">
-          <label for="surname">Apellido</label>
-          <input type="text" name="surname" id="surname" placeholder="Tu apellido" required>
-        </div>
-
-        <div class="form-group">
-          <label for="phone">Telefono</label>
-          <input type="tel" name="phone" id="phone" placeholder="Ej: +54 11-5555-5555" required>
-        </div>
-
-        <div class="form-group">
-          <label for="email">Email</label>
-          <input type="email" name="email" id="email" placeholder="youremail@email.com" required>
-        </div>
-
-        <div class="form-group">
-          <label for="reason">Motivo de contacto</label>
-          <select name="reason" id="reason">
-            <option value="" disabled selected>Selecciona una opcion</option>
-            <option value="inscripcion">Inscripcion</option>
-            <option value="turno-spa">Turnos Spa</option>
-            <option value="trabaja-con-nosotros">Trabaja con nosotros</option>
-            <option value="otro">Otro</option>
-          </select>
-        </div>
-        
-        <fieldset>
-          <legend>¿Sos socio de Strivox?</legend>
-          <div class="radio-group">
-            <div>
-              <input type="radio" id="first-yes" name="first-visit" value="si" required>
-              <label for="">Si</label>
-            </div>
-            <div>
-              <input type="radio" id="first-no" name="first-visit" value="no" required>
-              <label for="">No</label>
-            </div>
+        <section class="main-section">
+        <form>
+          <div class="form-group">
+            <label for="name">Nombre</label>
+            <input type="text" name="name" id="name" placeholder="Tu nombre" required>
           </div>
-        </fieldset>
 
-        <div class="form-group">
-          <label for="comment">Comentarios</label>
-          <textarea name="comment" id="comment" placeholder="Dejanos tu comentario" required cols="40" rows="5" maxlength="1500" minlength="20"></textarea>
-        </div>
+          <div class="form-group">
+            <label for="surname">Apellido</label>
+            <input type="text" name="surname" id="surname" placeholder="Tu apellido" required>
+          </div>
 
-        <div class="form-buttons">
-          <button class="btn btn-primary" type="submit">Enviar mensaje</button>
-          <button class="btn btn-primary" type="reset">Limpiar formulario</button>
-        </div>
+          <div class="form-group">
+            <label for="phone">Telefono</label>
+            <input type="tel" name="phone" id="phone" placeholder="Ej: +54 11-5555-5555" required>
+          </div>
 
-      </form>
-    </section>
-    
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="youremail@email.com" required>
+          </div>
+
+          <div class="form-group">
+            <label for="reason">Motivo de contacto</label>
+            <select name="reason" id="reason">
+              <option value="" disabled selected>Selecciona una opcion</option>
+              <option value="inscripcion">Inscripcion</option>
+              <option value="turno-spa">Turnos Spa</option>
+              <option value="trabaja-con-nosotros">Trabaja con nosotros</option>
+              <option value="otro">Otro</option>
+            </select>
+          </div>
+          
+          <fieldset>
+            <legend>¿Sos socio de Strivox?</legend>
+            <div class="radio-group">
+              <div>
+                <input type="radio" id="first-yes" name="first-visit" value="si" required>
+                <label for="first-yes">Si</label>
+              </div>
+              <div>
+                <input type="radio" id="first-no" name="first-visit" value="no" required>
+                <label for="first-no">No</label>
+              </div>
+            </div>
+          </fieldset>
+
+          <div class="form-group">
+            <label for="comment">Comentarios</label>
+            <textarea name="comment" id="comment" placeholder="Dejanos tu comentario" required cols="40" rows="5" maxlength="1500" minlength="20"></textarea>
+          </div>
+
+          <div class="form-buttons">
+            <button class="btn btn-primary" type="submit">Enviar mensaje</button>
+            <button class="btn btn-primary" type="reset">Limpiar formulario</button>
+          </div>
+
+        </form>
+      </section>
+    </main><
+
     <footer>
       <ul class="footer-nav">
         <li><a href="./index.html">Inicio</a></li>

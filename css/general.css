@@ -89,15 +89,16 @@ ul{
 }
 
 .btn-secondary{
-    color: var(--text);
+    color: var(--text-white); 
     background-color: transparent;
     border: 2px solid var(--color-primary);
 }
 
 .btn-secondary:hover{
     background-color: var(--color-primary);
-    color: var(--text);
+    color: var(--text-black); 
 }
+
 
 
 /*Header y nav*/
@@ -161,10 +162,14 @@ header{
 /*Main*/
 
 .main-section {
-  max-width: var(--max-width);
-  margin: auto;
-  padding: 1rem 0rem 3rem;
+  width: 100%;                 
+  max-width: var(--max-width);  
+  margin: 0 auto;               
+  padding: 1rem 2rem 3rem;     
+  display: flex;               
+  justify-content: center;     
 }
+
 
 /*Footer*/
 
