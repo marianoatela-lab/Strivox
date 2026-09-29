@@ -37,7 +37,7 @@ Para ejecutar el proyecto localmente es necesario tener instalados Node.js y npm
 2. Ingresar desde la terminal a la carpeta del proyecto:
 
 ```bash
-cd "Strivox Gym"
+cd Strivox
 ```
 
 3. Instalar las dependencias:
