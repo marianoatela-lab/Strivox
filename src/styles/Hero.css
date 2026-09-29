@@ -1,0 +1,14 @@
+.hero {
+  min-height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6)), url("../assets/img/hero-photo.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem;
+  gap: 1.5rem;
+}
+
