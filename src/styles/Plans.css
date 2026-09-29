@@ -1,0 +1,18 @@
+.plans-section {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  scroll-margin-top: 70px;
+}
+
+
+.plans-container {
+    width: 100%;
+    max-width: 1000px;
+}
+
+.plans-container h2 {
+    text-align: center;
+    color: var(--color-primary);
+}
